@@ -11,6 +11,7 @@
   background-color: grey;
 }
 
-.app-stats {
+.app-stats,
+.closing-section {
   color: white;
 }
