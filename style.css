@@ -1,0 +1,16 @@
+.main-header {
+  border: 1px solid red;
+}
+
+.app-assets {
+  border: 1px solid grey;
+}
+
+.app-resources,
+.app-assets {
+  background-color: grey;
+}
+
+.app-stats {
+  color: white;
+}
