@@ -1,0 +1,51 @@
+* {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url(/images/code.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app-resources,
+.footer {
+  background-color: grey;
+}
+
+.app-stats,
+.closing-section {
+  color: white;
+}
+
+.app-steps {
+  background-color: rgba(143, 143, 186, 0.299);
+  color: #fff;
+  text-align: center;
+  padding: 0.2rem 1rem;
+  font-size: 212px;
+  padding-top: 5px;
+}
+
+.logo {
+  color: #fff;
+}
+
+.header-buttons {
+  gap: 3rem;
+}
+
+.get-in-touch {
+  border-radius: 20px;
+}
+
+.app-assets {
+  padding-bottom: 1px;
+  background-color: rgba(240, 248, 255, 0.336);
+}
+
+.img-thumbnail {
+  min-height: 30rem;
+  max-height: 40rem;
+}

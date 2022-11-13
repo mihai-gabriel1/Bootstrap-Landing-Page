@@ -7,7 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
     <!-- Bootstrap CSS -->
     <link
@@ -18,90 +18,255 @@
     />
   </head>
   <body>
-    <div class="app">
-      <div class="main-header bg-primary">
-        <div class="navbar">
-          <div class="logo">Eventya</div>
+    <div class="container-fluid">
+      <div class="main-header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+          <div class="container">
+            <a class="navbar-brand" href="#">Eventya</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-          <div class="navigation-buttons">
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Solutions</a></li>
-              <li><a href="#">Portofolio</a></li>
-              <li><a href="#">Updates</a></li>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Create your app</a></li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#solutions">Solutions</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portofolio">Portofolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#updates">Updates</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#FAQ">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#blog">Blog</a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
+        </nav>
 
-        <div class="header-statement">
-          <p>Create your mobile app and website!</p>
-          <p>No codding required.</p>
-        </div>
-
-        <button class="create-app">Create your app ></button>
-        <a class="app-steps" href="#">See the steps</a>
+        <header class="jumbotron jumbotron-fluid text-white">
+          <div class="container-fluid text-center">
+            <h1 class="display-4">Create your mobile app and website !</h1>
+            <p class="display-4">No codding required.</p>
+            <div class="header-buttons d-flex justify-content-center">
+              <p>
+                <a
+                  href="#"
+                  class="btn btn-warning text-light btn-lg rounded-pill fs-3"
+                  role="button"
+                  >Create your app</a
+                >
+              </p>
+              <p>
+                <a href="#" class="btn btn-lg text-white bg-secondary"
+                  >See the steps</a
+                >
+              </p>
+            </div>
+          </div>
+        </header>
       </div>
 
-      <div class="solutions-section">
-        <div class="solutions-headers">
-          <p>Industry Specific Solutions</p>
-          <p>Developed with Your End-User in Mind</p>
-        </div>
+      <section id="services" class="container">
+        <h2 class="display-5 text-center mt-3 mb-4">
+          Industry specific solutions
+        </h2>
+        <h2 class="display-5 text-center mt-3 mb-5">
+          Developed with your End-User in Mind
+        </h2>
 
-        <div class="app-destinations">
-          <div class="smart-city">
-            <p>Smart City</p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        <div class="row text-center">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Smart City</h4>
+                <p class="card-text">
+                  Deliver the best user experience with our carefully designed
+                  responsive websites and applications!
+                </p>
+              </div>
+              <div class="card-footer py-4">
+                <a href="#" class="btn btn-secondary">See portfolio &raquo;</a>
+              </div>
+            </div>
           </div>
-          <div class="tourism">
-            <p>Tourism and Travel</p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4 class="card-title">Design</h4>
+                <p class="card-text">
+                  Deliver the best user experience with our carefully designed
+                  responsive websites and applications!
+                </p>
+              </div>
+              <div class="card-footer py-4">
+                <a href="#" class="btn btn-secondary">See portfolio &raquo;</a>
+              </div>
+            </div>
           </div>
-          <div class="content-creators">
-            <p>Content Creators and Podcasters</p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4 class="card-title">Influencers</h4>
+                <p class="card-text">
+                  Deliver the best user experience with our carefully designed
+                  responsive websites and applications!
+                </p>
+              </div>
+              <div class="card-footer py-4">
+                <a href="#" class="btn btn-secondary">See portfolio &raquo;</a>
+              </div>
+            </div>
           </div>
-          <div class="festivals">
-            <p>Festivals</p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4 class="card-title">Design</h4>
+                <p class="card-text">
+                  Deliver the best user experience with our carefully designed
+                  responsive websites and applications!
+                </p>
+              </div>
+              <div class="card-footer py-4">
+                <a href="#" class="btn btn-secondary">See portfolio &raquo;</a>
+              </div>
+            </div>
           </div>
-          <div class="threaters">
-            <p>Theaters, Philarmonics</p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4 class="card-title">Design</h4>
+                <p class="card-text">
+                  Deliver the best user experience with our carefully designed
+                  responsive websites and applications!
+                </p>
+              </div>
+              <div class="card-footer py-4">
+                <a href="#" class="btn btn-secondary">See portfolio &raquo;</a>
+              </div>
+            </div>
           </div>
-          <div class="museums">
-            <p>Museums, Zoos and Theme Parks</p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4 class="card-title">Design</h4>
+                <p class="card-text">
+                  Deliver the best user experience with our carefully designed
+                  responsive websites and applications!
+                </p>
+              </div>
+              <div class="card-footer py-4">
+                <a href="#" class="btn btn-secondary">See portfolio &raquo;</a>
+              </div>
+            </div>
           </div>
-          <div class="church">
-            <p>Churches</p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4 class="card-title">Design</h4>
+                <p class="card-text">
+                  Deliver the best user experience with our carefully designed
+                  responsive websites and applications!
+                </p>
+              </div>
+              <div class="card-footer py-4">
+                <a href="#" class="btn btn-secondary">See portfolio &raquo;</a>
+              </div>
+            </div>
           </div>
-          <div class="communities">
-            <p>Communities</p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4 class="card-title">Design</h4>
+                <p class="card-text">
+                  Deliver the best user experience with our carefully designed
+                  responsive websites and applications!
+                </p>
+              </div>
+              <div class="card-footer py-4">
+                <a href="#" class="btn btn-secondary">See portfolio &raquo;</a>
+              </div>
+            </div>
           </div>
-          <div class="news">
-            <p>Newspaper</p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4 class="card-title">Development</h4>
+                <p class="card-text">
+                  You need software that works on every device. Leverage the
+                  latest technologies and the most powerful tools!
+                </p>
+              </div>
+              <div class="card-footer py-4">
+                <a href="#" class="btn btn-secondary">See projects &raquo;</a>
+              </div>
+            </div>
           </div>
-          <div class="eco">
-            <p>Recycling App</p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+          <div class="col-md-4 mb-4">
+            <div class="card h-500">
+              <div class="card-body">
+                <h4 class="card-title">Analytics</h4>
+                <p class="card-text">
+                  Consult our experts to set up proper goals and find the best
+                  stack for your next application!
+                </p>
+              </div>
+              <div class="card-footer py-4">
+                <a href="#" class="btn btn-secondary"
+                  >See testimonials &raquo;</a
+                >
+              </div>
+            </div>
           </div>
         </div>
+      </section>
 
-        <p class="different-solution">Looking for a different solution?</p>
-        <button class="get-in-touch">Let's get in touch</button>
+      <p class="different-solution text-primary">
+        Looking for a different solution?
+      </p>
+      <button class="get-in-touch mb-5 btn bg-primary text-light">
+        Let's get in touch
+      </button>
+    </div>
+
+    <div class="app-assets">
+      <div class="heading pt-3">
+        <h3 class="h2-assets mb-4">
+          Reasons to create your mobile app with Eventya
+        </h3>
       </div>
-
-      <div class="app-assets">
-        <div class="app-logo">IMG</div>
-        <div class="app-statements">
+      <div
+        class="assets-container mx-auto container-fluid mb-5 row justify-content-center align-items-center"
+      >
+        <div class="assets-img col-sm">
+          <img
+            class="img-thumbnail rounded img-fluid"
+            src="https://images.unsplash.com/photo-1558655146-364adaf1fcc9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+            alt="a live data app running on a mobile and on a desktop"
+          />
+        </div>
+        <div class="app-statements col-sm">
           <div class="custom">
             Customizable platform
             <p>Lorem ipsum dolor sit amet consectetur.</p>
@@ -116,153 +281,153 @@
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="app-getting-steps">
-        <p>How to get your mobile app - Step by Step</p>
-        <p>You can have your own mobile app in 3 simple steps.</p>
+    <div class="app-getting-steps">
+      <p>How to get your mobile app - Step by Step</p>
+      <p>You can have your own mobile app in 3 simple steps.</p>
 
-        <div class="request-app">
-          <h4 class="app-steps-header">Request a trial for your mobile app.</h4>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo
-            debitis voluptate delectus repellat modi reiciendis facilis nemo
-            porro possimus veniam!
-          </p>
-        </div>
-        <div class="manage-app">
-          <h4 class="app-steps-header">App Management Training</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-            numquam iusto amet tempora voluptatem mollitia commodi quidem
-            consequuntur dolorem qui.
-          </p>
-        </div>
-        <div class="app-store-submission">
-          <h4 class="app-steps-header">Google play and itunes Submission</h4>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
-            asperiores velit quo dignissimos consequatur, labore vero doloribus
-            unde aut voluptate!
-          </p>
-        </div>
+      <div class="request-app">
+        <h4 class="app-steps-header">Request a trial for your mobile app.</h4>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo debitis
+          voluptate delectus repellat modi reiciendis facilis nemo porro
+          possimus veniam!
+        </p>
       </div>
-
-      <div class="app-resources">
-        <h4 class="app-resources-header">Explore our marketing resources</h4>
-
-        <div class="digital-design">Digital Design</div>
-        <div class="digital-design">Digital Design</div>
-        <div class="digital-design">Digital Design</div>
-        <button class="read-more">Read more</button>
-
-        <h4 class="stay-updated">
-          Want to stay up to date with our news, ideas and updates?
-        </h4>
-        <button class="resources-newsletteer">
-          Subscribe to our newsletter.
-        </button>
+      <div class="manage-app">
+        <h4 class="app-steps-header">App Management Training</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+          numquam iusto amet tempora voluptatem mollitia commodi quidem
+          consequuntur dolorem qui.
+        </p>
       </div>
-
-      <div class="app-stats bg-primary">
-        <div class="clients">
-          <div class="clients-logo"><p>Logo</p></div>
-          <p>happy clients</p>
-          <p>370</p>
-        </div>
-        <div class="downloads">
-          <div class="downloads-logo"><p>Logo</p></div>
-          <p>Download</p>
-          <p>208</p>
-        </div>
-        <div class="users">
-          <div class="users-logo"><p>Logo</p></div>
-          <p>Happy users</p>
-          <p>450</p>
-        </div>
-        <div class="expe">
-          <div class="expe-logo"><p>Logo</p></div>
-          <p>Years of expe</p>
-          <p>500</p>
-        </div>
-      </div>
-
-      <div class="customers-reviews">
-        <h4 class="review-header">Why our customers love working with us</h4>
-        <div class="user-statement">
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-            quae, beatae obcaecati quos numquam itaque.
-          </p>
-          <div class="review-rating">Review stars logo</div>
-        </div>
-        <div class="user-statement">
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-            quae, beatae obcaecati quos numquam itaque.
-          </p>
-          <div class="review-rating">Review stars logo</div>
-        </div>
-        <button class="left-arrow">left-arrow</button>
-        <button class="right-arrow">right-arrow</button>
-
-        <h4 class="clients">Dintre clientii nostri</h4>
-        <div>Company logo 1</div>
-        <div>Company logo 2</div>
-        <div>Company logo 3</div>
-        <div>Company logo 4</div>
-      </div>
-
-      <div class="closing-section bg-primary">
-        <h4 class="closing-h4">Be agile. Build less. Launch. Scale later.</h4>
-        <button class="create-your-app">Create your app</button
-        ><button class="demo">Schedule a demo</button>
-        <p>Have a question? Give us a call 347-776-3316</p>
-      </div>
-
-      <div class="summary">
-        <div class="social-links">
-          <div class="app-logo">Eventya</div>
-          <div class="social-media">
-            <div>Facebook</div>
-            <div>Instagram</div>
-            <div>Linkedin</div>
-            <div>Youtube</div>
-          </div>
-        </div>
-
-        <div class="our-solutions">
-          <p>Our solutions</p>
-          <p>Lorem lorem</p>
-          <p>Lorem lorem</p>
-          <p>Lorem lorem</p>
-          <p>Lorem lorem</p>
-          <p>Lorem lorem</p>
-          <p>Lorem lorem</p>
-          <p>Lorem lorem</p>
-          <p>Lorem lorem</p>
-          <p>Lorem lorem</p>
-          <p>Lorem lorem</p>
-        </div>
-        <div class="legal-stuff">
-          <p>Legal stuff</p>
-          <p>Legal stuff</p>
-          <p>Legal stuff</p>
-          <p>Legal stuff</p>
-        </div>
-        <div class="company">
-          <p>Company</p>
-          <p>About us</p>
-          <p>About us</p>
-          <p>About us</p>
-          <p>About us</p>
-        </div>
-      </div>
-
-      <div class="footer">
-        <p>&copy; 2022 Eventya. All rights reserved</p>
-        <p>152 Stefan Cel Mare Street, Sibiu, Romania</p>
+      <div class="app-store-submission">
+        <h4 class="app-steps-header">Google play and itunes Submission</h4>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
+          asperiores velit quo dignissimos consequatur, labore vero doloribus
+          unde aut voluptate!
+        </p>
       </div>
     </div>
+
+    <div class="app-resources">
+      <h4 class="app-resources-header">Explore our marketing resources</h4>
+
+      <div class="digital-design">Digital Design</div>
+      <div class="digital-design">Digital Design</div>
+      <div class="digital-design">Digital Design</div>
+      <button class="read-more">Read more</button>
+
+      <h4 class="stay-updated">
+        Want to stay up to date with our news, ideas and updates?
+      </h4>
+      <button class="resources-newsletteer">
+        Subscribe to our newsletter.
+      </button>
+    </div>
+
+    <div class="app-stats bg-primary">
+      <div class="clients">
+        <div class="clients-logo"><p>Logo</p></div>
+        <p>happy clients</p>
+        <p>370</p>
+      </div>
+      <div class="downloads">
+        <div class="downloads-logo"><p>Logo</p></div>
+        <p>Download</p>
+        <p>208</p>
+      </div>
+      <div class="users">
+        <div class="users-logo"><p>Logo</p></div>
+        <p>Happy users</p>
+        <p>450</p>
+      </div>
+      <div class="expe">
+        <div class="expe-logo"><p>Logo</p></div>
+        <p>Years of expe</p>
+        <p>500</p>
+      </div>
+    </div>
+
+    <div class="customers-reviews">
+      <h4 class="review-header">Why our customers love working with us</h4>
+      <div class="user-statement">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
+          quae, beatae obcaecati quos numquam itaque.
+        </p>
+        <div class="review-rating">Review stars logo</div>
+      </div>
+      <div class="user-statement">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
+          quae, beatae obcaecati quos numquam itaque.
+        </p>
+        <div class="review-rating">Review stars logo</div>
+      </div>
+      <button class="left-arrow">left-arrow</button>
+      <button class="right-arrow">right-arrow</button>
+
+      <h4 class="clients">Dintre clientii nostri</h4>
+      <div>Company logo 1</div>
+      <div>Company logo 2</div>
+      <div>Company logo 3</div>
+      <div>Company logo 4</div>
+    </div>
+
+    <div class="closing-section bg-primary">
+      <h4 class="closing-h4">Be agile. Build less. Launch. Scale later.</h4>
+      <button class="create-your-app">Create your app</button
+      ><button class="demo">Schedule a demo</button>
+      <p>Have a question? Give us a call 347-776-3316</p>
+    </div>
+
+    <div class="summary">
+      <div class="social-links">
+        <div class="app-logo">Eventya</div>
+        <div class="social-media">
+          <div>Facebook</div>
+          <div>Instagram</div>
+          <div>Linkedin</div>
+          <div>Youtube</div>
+        </div>
+      </div>
+
+      <div class="our-solutions">
+        <p>Our solutions</p>
+        <p>Lorem lorem</p>
+        <p>Lorem lorem</p>
+        <p>Lorem lorem</p>
+        <p>Lorem lorem</p>
+        <p>Lorem lorem</p>
+        <p>Lorem lorem</p>
+        <p>Lorem lorem</p>
+        <p>Lorem lorem</p>
+        <p>Lorem lorem</p>
+        <p>Lorem lorem</p>
+      </div>
+      <div class="legal-stuff">
+        <p>Legal stuff</p>
+        <p>Legal stuff</p>
+        <p>Legal stuff</p>
+        <p>Legal stuff</p>
+      </div>
+      <div class="company">
+        <p>Company</p>
+        <p>About us</p>
+        <p>About us</p>
+        <p>About us</p>
+        <p>About us</p>
+      </div>
+    </div>
+    <div class="footer">
+      <p>&copy; 2022 Eventya. All rights reserved</p>
+      <p>152 Stefan Cel Mare Street, Sibiu, Romania</p>
+    </div>
+
     <!-- jquerry, popper js. -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
