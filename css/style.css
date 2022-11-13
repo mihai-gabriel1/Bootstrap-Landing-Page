@@ -3,7 +3,7 @@
   box-sizing: border-box;
   color: rgb(48, 48, 63);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 header {
@@ -25,7 +25,8 @@ header {
 .step-span,
 .reasons-span,
 .mobile-app,
-.update-span {
+.update-,
+.clients-span {
   color: rgb(43, 43, 135);
   font-weight: 350;
 }
@@ -112,4 +113,35 @@ header {
 .bi-star {
   color: rgb(220, 136, 0);
   font-weight: bold;
+}
+
+.brand {
+  width: 220px;
+  height: 220px;
+  gap: 2rem;
+}
+
+/* social media section */
+
+.social-media {
+  gap: 2rem;
+}
+
+.eventya-logo {
+  width: 100px;
+  height: 50px;
+}
+
+.facebook,
+.instagram,
+.linkedin,
+.youtube {
+  font-size: 50px;
+}
+
+/* Media querries */
+@media (max-width: 58em) {
+  .brands-logo {
+    flex-direction: column;
+  }
 }
