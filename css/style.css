@@ -12,8 +12,9 @@ header {
   background-size: cover;
 }
 
-.display-4 {
+.header-message {
   color: #fff;
+  font-size: 3rem;
 }
 
 .app-resources,
@@ -26,7 +27,9 @@ header {
 .reasons-span,
 .mobile-app,
 .update-,
-.clients-span {
+.clients-span,
+.header-solutions,
+.customers-span {
   color: rgb(43, 43, 135);
   font-weight: 350;
 }
@@ -106,10 +109,6 @@ header {
   font-weight: bold;
 }
 
-.customers-span {
-  color: rgb(43, 43, 135);
-}
-
 .bi-star {
   color: rgb(220, 136, 0);
   font-weight: bold;
@@ -141,7 +140,34 @@ header {
 
 /* Media querries */
 @media (max-width: 58em) {
+  .header-message {
+    font-size: 2rem;
+  }
+
   .brands-logo {
     flex-direction: column;
+    margin-top: 1.4rem;
+  }
+
+  .clients {
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 30em) {
+  .header-message {
+    font-size: 1.2rem;
+  }
+
+  .header-btn {
+    font-size: 0.2rem;
+  }
+
+  .brands-logo {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .clients {
+    margin-top: 1rem;
   }
 }
