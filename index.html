@@ -68,7 +68,7 @@
           </div>
         </nav>
 
-        <header class="jumbotron jumbotron-fluid text-white">
+        <header class="jumbotron jumbotron-fluid">
           <div class="container-fluid text-center">
             <p class="header-message text-white">
               Create your mobile app and website !
@@ -78,7 +78,7 @@
               <p>
                 <a
                   href="#"
-                  class="btn header-btn btn-warning text-light btn-lg rounded-pill"
+                  class="btn header-btn btn-warning btn-lg rounded-pill"
                   role="button"
                   >Create your app</a
                 >
@@ -473,7 +473,7 @@
           <p class="px-xl-3">
             <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet,
             consectetur adipisicing elit. Quod eos id officiis hic tenetur quae
-            quaerat ad velit ab hic tenetur.
+            quaerat ad velit.
           </p>
 
           <div class="app-rating">
@@ -553,8 +553,8 @@
           <h6 class="text-primary mb-3">Marketing Specialist</h6>
           <p class="px-xl-3">
             <i class="fas fa-quote-left pe-2"></i>At vero eos et accusamus et
-            iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-            deleniti atque corrupti.
+            iusto odio dignissimos ducimus qui blanditiis praesentium
+            voluptatum.
           </p>
           <div class="app-rating">
             <i class="bi bi-star"></i> <i class="bi bi-star"></i>
@@ -583,7 +583,7 @@
     </section>
 
     <section class="our-clients-app container-fluid">
-      <h4 class="clients">
+      <h4 class="clients pt-4">
         Dintre <span class="clients-span">clientii</span> nostri
       </h4>
       <div
@@ -596,7 +596,6 @@
             alt="Romania salbatica"
           />
         </div>
-        <!--  -->
 
         <div class="visit-vrancea our-client">
           <img
@@ -628,8 +627,10 @@
       </h4>
       <div class="btns-container justify-content-center align-items-center">
         <button class="create-your-app mb-2 btn bg-secondary text-light">
-          Create your app</button
-        ><button class="demo mb-2 btn bg-secondary text-light">
+          Create your app
+        </button>
+        <span style="color: #fff">OR</span>
+        <button class="demo mb-2 btn bg-secondary text-light">
           Schedule a demo
         </button>
       </div>
@@ -638,7 +639,9 @@
       </p>
     </div>
 
-    <div class="social-media d-flex justify-content-center align-items-center">
+    <div
+      class="social-media d-flex justify-content-center align-items-center pt-3"
+    >
       <div class="app-logo">
         <img
           class="eventya-logo"
@@ -652,37 +655,70 @@
       <div class="youtube"><i class="bi bi-youtube"></i></div>
       <!-- </div> -->
     </div>
-    <div class="summary">
-      <!-- <div class="social-links"> -->
 
-      <div class="our-solutions">
-        <p>Our solutions</p>
-        <p>Lorem lorem</p>
-        <p>Lorem lorem</p>
-        <p>Lorem lorem</p>
-        <p>Lorem lorem</p>
-        <p>Lorem lorem</p>
-        <p>Lorem lorem</p>
-        <p>Lorem lorem</p>
-        <p>Lorem lorem</p>
-        <p>Lorem lorem</p>
-        <p>Lorem lorem</p>
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-4">.col-4</div>
+        <div class="col-4">.col-4</div>
+        <div class="col-4">.col-4</div>
       </div>
-      <div class="legal-stuff">
-        <p>Legal stuff</p>
-        <p>Legal stuff</p>
-        <p>Legal stuff</p>
-        <p>Legal stuff</p>
+
+      <div class="row">
+        <div class="col-sm-4">.col-sm-4</div>
+        <div class="col-sm-4">.col-sm-4</div>
+        <div class="col-sm-4">.col-sm-4</div>
       </div>
-      <div class="company">
-        <p>Company</p>
-        <p>About us</p>
-        <p>About us</p>
-        <p>About us</p>
-        <p>About us</p>
+
+      <div class="row">
+        <div class="col-md-4">.col-md-4</div>
+        <div class="col-md-4">.col-md-4</div>
+        <div class="col-md-4">.col-md-4</div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4">.col-lg-4</div>
+        <div class="col-lg-4">.col-lg-4</div>
+        <div class="col-lg-4">.col-lg-4</div>
+      </div>
+
+      <div class="row">
+        <div class="col-xl-4">.col-xl-4</div>
+        <div class="col-xl-4">.col-xl-4</div>
+        <div class="col-xl-4">.col-xl-4</div>
+      </div>
+    </div> -->
+
+    <div class="container-fluid about-us">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="our-solutions col-md-10 col-lg-2 col-xl-2">
+          <p class="solutions-p">Our solutions</p>
+          <p>Smart City</p>
+          <p>Tourism and Travel</p>
+          <p>Content-creators</p>
+          <p>Smart City</p>
+          <div class="container col-md-10 col-lg-10 col-xl-10">
+            <p>Tourism and Travel</p>
+            <p>Smart City</p>
+            <p>Tourism and Travel</p>
+          </div>
+        </div>
+        <div class="legal-stuff col-md-4 col-lg-2 col-xl-2">
+          <p class="legal-p">Legal stuff</p>
+          <p>Terms and Conditions</p>
+          <p>Privacy Policy</p>
+          <p>Cookies Policy</p>
+        </div>
+        <div class="company col-md-4 col-xl-2">
+          <p class="summary-p">Company</p>
+          <p>About us</p>
+          <p>Our Team</p>
+          <p>Careers</p>
+          <p>Contact us</p>
+        </div>
       </div>
     </div>
-    <div class="footer container-fluid p-2">
+
+    <div class="footer">
       <p>&copy; 2022 Eventya. All rights reserved</p>
       <p>152 Stefan Cel Mare Street, Sibiu, Romania</p>
     </div>
