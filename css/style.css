@@ -1,22 +1,39 @@
 * {
   text-align: center;
   box-sizing: border-box;
+  color: rgb(48, 48, 63);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 300;
 }
 
 header {
-  background-image: url(/images/code.jpg);
+  background-image: url(https://images.unsplash.com/photo-1483401757487-2ced3fa77952?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.display-4 {
+  color: #fff;
+}
+
 .app-resources,
 .footer {
-  background-color: grey;
+  background-color: rgba(240, 248, 255, 0.336);
+}
+
+.resources-span,
+.step-span,
+.reasons-span,
+.mobile-app,
+.update-span {
+  color: rgb(43, 43, 135);
+  font-weight: 350;
 }
 
 .app-stats,
 .closing-section {
   color: white;
+  background-color: rgba(240, 248, 255, 0.336);
 }
 
 .app-steps {
@@ -47,5 +64,52 @@ header {
 
 .img-thumbnail {
   min-height: 30rem;
-  max-height: 40rem;
+  max-height: 35rem;
+}
+
+.app-statements {
+  margin-right: 5rem;
+  text-align: center;
+}
+
+.wrench,
+.gear,
+.workspace {
+  color: orange;
+}
+
+.btns-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.app-stats {
+  padding: 2rem;
+  justify-content: space-around;
+}
+
+.bi-person,
+.bi-box-arrow-down,
+.bi-emoji-laughing,
+.bi-headset {
+  color: wheat;
+  font-size: 2rem;
+}
+
+.app-stats p {
+  font-size: 1rem;
+  color: white;
+}
+
+.stats-number {
+  font-weight: bold;
+}
+
+.customers-span {
+  color: rgb(43, 43, 135);
+}
+
+.bi-star {
+  color: rgb(220, 136, 0);
+  font-weight: bold;
 }
