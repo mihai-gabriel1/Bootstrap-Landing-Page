@@ -175,9 +175,8 @@ header {
     flex-direction: column;
     margin-top: 1.4rem;
   }
-
   .clients {
-    margin-top: 1rem;
+    flex-direction: column;
   }
 
   .header-buttons {
@@ -204,8 +203,7 @@ header {
     flex-direction: column;
     margin-top: 2rem;
   }
-
   .clients {
-    margin-top: 1rem;
+    flex-direction: column;
   }
 }
